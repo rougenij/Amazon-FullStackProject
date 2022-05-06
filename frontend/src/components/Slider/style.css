@@ -1,0 +1,42 @@
+.slider {
+  height: 50vh;
+  position: relative;
+  z-index: 1;
+  background: #f3f3f3;
+}
+
+.prev {
+  position: absolute;
+  left: 20px;
+  top: 50%;
+  transform: translateY(-100%);
+}
+
+.next {
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-100%);
+}
+
+.dots {
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  text-align: center;
+}
+
+.slide {
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 100px;
+}
+
+.pagination {
+  position: absolute;
+  letter-spacing: 2px;
+  bottom: 20px;
+  right: 20px;
+}

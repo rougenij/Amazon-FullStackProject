@@ -1,7 +1,12 @@
 import React from "react";
+import Slider from "../../components/Slider/Slider";
 
 function Index() {
-  return <div>This is the landing page for now</div>;
+  return (
+    <div>
+      <Slider />
+    </div>
+  );
 }
 
 export default Index;
